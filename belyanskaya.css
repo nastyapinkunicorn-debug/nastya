@@ -3,21 +3,18 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(120deg, #FFFFFF, #808080	, #000000	);
+  background: linear-gradient(120deg, #FFFFFF, #808080, #000000);
 }
 a {
   color:#FFFFFF;
 }
-
 a:visited {
-  
   color: #808080;
-      }
-      
+}
 a:hover {
   color: #B22222;
-      }
-    ul {
+}
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -34,13 +31,11 @@ a:hover {
     width: 760px;
   }
 }
-
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
-
 @media (min-width: 767px) {
   .container {
     width: 1170px;
@@ -50,7 +45,6 @@ a:hover {
   min-height: 80px;
   display: flex;
 }
-      
 @media (max-width: 767px) {
   .landing-page header {
     min-height: auto;
@@ -62,7 +56,6 @@ a:hover {
   align-items: center;
   justify-content: space-between;
 }
-      
 @media (max-width: 767px) {
   .landing-page header .container {
     flex-direction: column;
@@ -73,7 +66,6 @@ a:hover {
   display: flex;
   align-items: center;
 }
-      
 @media (max-width: 900px) {
   .landing-page header .links {
     text-align: center;
@@ -91,12 +83,14 @@ a:hover {
     margin-left: auto;
   }
 }
+
 .landing-page header .links li:last-child {
   border-radius: 20px;
   padding: 10px 20px;
   color: #FFF;
-  background-color: #B22222;
+  background-color: #000000; 
 }
+
 .landing-page .content .container {
   display: flex;
   align-items: center;
@@ -104,7 +98,6 @@ a:hover {
   gap: 140px;
   min-height: calc(100vh - 80px);
 }
-      
 @media (max-width: 767px) {
   .landing-page .content .container {
     gap: 0;
@@ -113,17 +106,21 @@ a:hover {
     flex-direction: column-reverse;
   }
 }
-      
 @media (max-width: 767px) {
   .landing-page .content .info {
     text-align: center;
     margin-bottom: 15px 
   }
 }
+
 .landing-page .content .info h1 {
   color: white;
   font-size: 38px;
+  text-align: left; 
+  margin-top: 0;
+  line-height: 1.2;
 }
+
 .landing-page .content .info p {
   margin: 0;
   line-height: 1.6;
@@ -137,9 +134,16 @@ a:hover {
   margin-top: 30px;
   cursor: pointer;
   color: #FFF;
-  background-color: #B22222;
+  background-color: #000000; 
+  transition: .3s;
 }
+.landing-page .content .info button:hover {
+  background-color: #333333;
+}
+
 .landing-page .content .image img {
   max-width: 120%;
   margin-top: 50px;
 }
+
+
