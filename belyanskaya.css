@@ -3,10 +3,10 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(120deg, #FFFFFF, #808080	, #000000	);
+  background: linear-gradient(120deg, #FFFFFF, #808080	, #000000);
 }
 a {
-  color:#FFFFFF;
+  color: :#FFFFFF;
 }
 
 a:visited {
@@ -82,7 +82,7 @@ a:hover {
 }
 .landing-page header .links li {
   margin-left: 10px;
-  color:#B22222;
+  color: #B22222;
   cursor: pointer;
   transition: .3s;
 }
